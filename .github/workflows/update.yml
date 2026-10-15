@@ -1,0 +1,175 @@
+name: Update plans feed
+
+on:
+  schedule:
+    # Каждый день в 00:00 МСК (21:00 UTC)
+    - cron: '0 21 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install SVG renderer
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq librsvg2-bin
+
+      - name: Build feed and plan images
+        run: |
+          cat > build_feed.py <<'PY'
+          #!/usr/bin/env python3
+          """Собирает ladozhsky_plans.yml и PNG-планировки в каталог out_dir.
+
+          Источник: psk-info.ru API (проект Ladozhsky, project=2).
+          Выборка: свободные лоты с ценой, самый дешевый лот на каждую площадь,
+          затем равномерно ITEMS позиций по диапазону площадей.
+          PNG получаются из SVG через rsvg-convert.
+          """
+
+          import json
+          import os
+          import shutil
+          import subprocess
+          import sys
+          import urllib.request
+          from datetime import datetime, timedelta, timezone
+          from xml.sax.saxutils import escape
+
+          API_BASE = "https://psk-info.ru/api/flats/?format=json"
+          PAGE_SIZE = 100
+          PROJECT_ID = 2
+          ITEMS = 10
+          SHOP_URL = "https://ladoczsky.avenirspb.ru/"
+          PICTURE_BASE = "https://raw.githubusercontent.com/stasfactoryads-cloud/ladozhsky-avenir-feed/main/plans/"
+          MSK_TZ = timezone(timedelta(hours=3))
+
+
+          def fetch_all_flats():
+              flats, offset, total = [], 0, None
+              while True:
+                  url = f"{API_BASE}&limit={PAGE_SIZE}&offset={offset}"
+                  req = urllib.request.Request(url, headers={"Accept": "application/json"})
+                  with urllib.request.urlopen(req, timeout=60) as resp:
+                      data = json.loads(resp.read().decode("utf-8"))
+                  if total is None:
+                      total = data.get("count", 0)
+                  results = data.get("results", [])
+                  if not results:
+                      break
+                  flats.extend(results)
+                  offset += PAGE_SIZE
+                  if offset >= total:
+                      break
+              return flats
+
+
+          def pick_items(flats):
+              free = [
+                  f for f in flats
+                  if f.get("project") == PROJECT_ID and f.get("status") == "Свободно"
+                  and f.get("price") and f["price"] > 0
+              ]
+              cheapest = {}
+              for f in free:
+                  area = round(f["area"], 2)
+                  if area not in cheapest or f["price"] < cheapest[area]["price"]:
+                      cheapest[area] = f
+              unique = [cheapest[a] for a in sorted(cheapest)]
+              if len(unique) <= ITEMS:
+                  return unique
+              step = (len(unique) - 1) / (ITEMS - 1)
+              return [unique[round(i * step)] for i in range(ITEMS)]
+
+
+          def offer_xml(flat):
+              area = f"{flat['area']:.2f}".rstrip("0").rstrip(".")
+              finishing = flat.get("finishing") or "С отделкой"
+              description = (
+                  f"Апарт-отель бизнес-класса Ladozhsky AVENIR, ГК «ПСК». "
+                  f"Площадь {area} м², этаж {flat.get('floor')} из {flat.get('max_floor')}, {finishing.lower()}. "
+                  f"Управление: PSK INVEST."
+              )
+              return "\n".join([
+                  f'<offer id="{flat["id"]}" available="true">',
+                  f"  <name>{escape(f'Апартаменты {area} м²')}</name>",
+                  f"  <url>{escape(SHOP_URL)}</url>",
+                  f"  <picture>{escape(PICTURE_BASE + str(flat['id']) + '.png')}</picture>",
+                  f"  <price>{int(round(flat['price']))}</price>",
+                  "  <currencyId>RUR</currencyId>",
+                  "  <categoryId>1</categoryId>",
+                  f"  <description>{escape(description)}</description>",
+                  f'  <param name="Площадь">{area} м²</param>',
+                  f'  <param name="Этаж">{flat.get("floor")} из {flat.get("max_floor")}</param>',
+                  f'  <param name="Отделка">{escape(finishing)}</param>',
+                  f'  <param name="Корпус">{escape(str(flat.get("building") or "-"))}</param>',
+                  "</offer>",
+              ])
+
+
+          def build_yml(items, now):
+              offers = "\n".join(offer_xml(f) for f in items)
+              return (
+                  '<?xml version="1.0" encoding="UTF-8"?>\n'
+                  f"<!-- Обновлено: {now} МСК. Источник: psk-info.ru, проект Ladozhsky AVENIR -->\n"
+                  f'<yml_catalog date="{now}">\n<shop>\n'
+                  "  <name>Ladozhsky AVENIR</name>\n"
+                  "  <company>Группа компаний ПСК</company>\n"
+                  f"  <url>{escape(SHOP_URL)}</url>\n"
+                  '  <currencies><currency id="RUR" rate="1"/></currencies>\n'
+                  '  <categories><category id="1">Апартаменты</category></categories>\n'
+                  f"  <offers>\n{offers}\n  </offers>\n</shop>\n</yml_catalog>\n"
+              )
+
+
+          def render_plan(flat, plans_dir):
+              svg_path = os.path.join(plans_dir, f"{flat['id']}.svg")
+              png_path = os.path.join(plans_dir, f"{flat['id']}.png")
+              urllib.request.urlretrieve(flat["plan"], svg_path)
+              subprocess.run(
+                  ["rsvg-convert", "-w", "1200", "-b", "white", "-f", "png", "-o", png_path, svg_path],
+                  check=True,
+              )
+              os.remove(svg_path)
+
+
+          def main(out_dir):
+              plans_dir = os.path.join(out_dir, "plans")
+              if os.path.isdir(plans_dir):
+                  shutil.rmtree(plans_dir)
+              os.makedirs(plans_dir)
+              items = pick_items(fetch_all_flats())
+              if not items:
+                  sys.exit("Нет свободных лотов, фид не обновлен")
+              for flat in items:
+                  render_plan(flat, plans_dir)
+              now = datetime.now(MSK_TZ).strftime("%Y-%m-%d %H:%M")
+              with open(os.path.join(out_dir, "ladozhsky_plans.yml"), "w", encoding="utf-8") as fh:
+                  fh.write(build_yml(items, now))
+              print(f"Позиций в фиде: {len(items)}")
+
+
+          if __name__ == "__main__":
+              main(sys.argv[1] if len(sys.argv) > 1 else ".")
+          PY
+          python3 build_feed.py .
+          rm build_feed.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A ladozhsky_plans.yml plans
+          if git diff --cached --quiet; then
+            echo "Изменений нет"
+          else
+            git commit -m "Update plans feed $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Обновлено: 2026-10-15 21:34 МСК. Источник: psk-info.ru, проект Ladozhsky AVENIR -->
-<yml_catalog date="2026-10-15 21:34">
+<!-- Обновлено: 2026-10-15 21:50 МСК. Источник: psk-info.ru, проект Ladozhsky AVENIR -->
+<yml_catalog date="2026-10-15 21:50">
 <shop>
   <name>Ladozhsky AVENIR</name>
   <company>Группа компаний ПСК</company>
@@ -11,6 +11,7 @@
 <offer id="101107" available="true">
   <name>Апартаменты 24.22 м²</name>
   <url>https://ladoczsky.avenirspb.ru/</url>
+  <picture>https://raw.githubusercontent.com/stasfactoryads-cloud/ladozhsky-avenir-feed/main/plans/101107.png</picture>
   <price>7314488</price>
   <currencyId>RUR</currencyId>
   <categoryId>1</categoryId>
@@ -23,6 +24,7 @@
 <offer id="101116" available="true">
   <name>Апартаменты 25.68 м²</name>
   <url>https://ladoczsky.avenirspb.ru/</url>
+  <picture>https://raw.githubusercontent.com/stasfactoryads-cloud/ladozhsky-avenir-feed/main/plans/101116.png</picture>
   <price>7096360</price>
   <currencyId>RUR</currencyId>
   <categoryId>1</categoryId>
@@ -35,6 +37,7 @@
 <offer id="100226" available="true">
   <name>Апартаменты 26.67 м²</name>
   <url>https://ladoczsky.avenirspb.ru/</url>
+  <picture>https://raw.githubusercontent.com/stasfactoryads-cloud/ladozhsky-avenir-feed/main/plans/100226.png</picture>
   <price>6920892</price>
   <currencyId>RUR</currencyId>
   <categoryId>1</categoryId>
@@ -47,6 +50,7 @@
 <offer id="100258" available="true">
   <name>Апартаменты 27.16 м²</name>
   <url>https://ladoczsky.avenirspb.ru/</url>
+  <picture>https://raw.githubusercontent.com/stasfactoryads-cloud/ladozhsky-avenir-feed/main/plans/100258.png</picture>
   <price>7405201</price>
   <currencyId>RUR</currencyId>
   <categoryId>1</categoryId>
@@ -59,6 +63,7 @@
 <offer id="100289" available="true">
   <name>Апартаменты 34.97 м²</name>
   <url>https://ladoczsky.avenirspb.ru/</url>
+  <picture>https://raw.githubusercontent.com/stasfactoryads-cloud/ladozhsky-avenir-feed/main/plans/100289.png</picture>
   <price>8491136</price>
   <currencyId>RUR</currencyId>
   <categoryId>1</categoryId>
@@ -71,6 +76,7 @@
 <offer id="100484" available="true">
   <name>Апартаменты 39.35 м²</name>
   <url>https://ladoczsky.avenirspb.ru/</url>
+  <picture>https://raw.githubusercontent.com/stasfactoryads-cloud/ladozhsky-avenir-feed/main/plans/100484.png</picture>
   <price>8911437</price>
   <currencyId>RUR</currencyId>
   <categoryId>1</categoryId>
@@ -83,6 +89,7 @@
 <offer id="100439" available="true">
   <name>Апартаменты 39.9 м²</name>
   <url>https://ladoczsky.avenirspb.ru/</url>
+  <picture>https://raw.githubusercontent.com/stasfactoryads-cloud/ladozhsky-avenir-feed/main/plans/100439.png</picture>
   <price>9005909</price>
   <currencyId>RUR</currencyId>
   <categoryId>1</categoryId>
@@ -95,6 +102,7 @@
 <offer id="100336" available="true">
   <name>Апартаменты 43.33 м²</name>
   <url>https://ladoczsky.avenirspb.ru/</url>
+  <picture>https://raw.githubusercontent.com/stasfactoryads-cloud/ladozhsky-avenir-feed/main/plans/100336.png</picture>
   <price>9469772</price>
   <currencyId>RUR</currencyId>
   <categoryId>1</categoryId>
@@ -107,6 +115,7 @@
 <offer id="100495" available="true">
   <name>Апартаменты 51.26 м²</name>
   <url>https://ladoczsky.avenirspb.ru/</url>
+  <picture>https://raw.githubusercontent.com/stasfactoryads-cloud/ladozhsky-avenir-feed/main/plans/100495.png</picture>
   <price>11235321</price>
   <currencyId>RUR</currencyId>
   <categoryId>1</categoryId>
@@ -119,6 +128,7 @@
 <offer id="100434" available="true">
   <name>Апартаменты 60.83 м²</name>
   <url>https://ladoczsky.avenirspb.ru/</url>
+  <picture>https://raw.githubusercontent.com/stasfactoryads-cloud/ladozhsky-avenir-feed/main/plans/100434.png</picture>
   <price>13105033</price>
   <currencyId>RUR</currencyId>
   <categoryId>1</categoryId>
