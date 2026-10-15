@@ -19,8 +19,8 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install SVG renderer
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq librsvg2-bin
+      - name: Install SVG renderer and ImageMagick
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq librsvg2-bin imagemagick
 
       - name: Build feed and plan images
         run: |
@@ -50,6 +50,7 @@ jobs:
           SHOP_URL = "https://ladoczsky.avenirspb.ru/"
           PICTURE_BASE = "https://raw.githubusercontent.com/stasfactoryads-cloud/ladozhsky-avenir-feed/main/plans/"
           MSK_TZ = timezone(timedelta(hours=3))
+          IMAGEMAGICK = "magick" if shutil.which("magick") else "convert"
 
 
           def fetch_all_flats():
@@ -133,8 +134,14 @@ jobs:
               svg_path = os.path.join(plans_dir, f"{flat['id']}.svg")
               png_path = os.path.join(plans_dir, f"{flat['id']}.png")
               urllib.request.urlretrieve(flat["plan"], svg_path)
+              # Вписываем план в квадрат 1200x1200 с белыми полями, чтобы карточка 1:1 его не обрезала
               subprocess.run(
-                  ["rsvg-convert", "-w", "1200", "-b", "white", "-f", "png", "-o", png_path, svg_path],
+                  ["rsvg-convert", "-w", "1200", "-h", "1200", "-a", "-b", "white", "-f", "png", "-o", png_path, svg_path],
+                  check=True,
+              )
+              subprocess.run(
+                  [IMAGEMAGICK, png_path, "-background", "white", "-gravity", "center",
+                   "-extent", "1200x1200", png_path],
                   check=True,
               )
               os.remove(svg_path)
