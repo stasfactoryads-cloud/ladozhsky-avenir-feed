@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Обновлено: 2026-10-15 21:34 МСК. Источник: psk-info.ru, проект Ladozhsky AVENIR -->
+<yml_catalog date="2026-10-15 21:34">
+<shop>
+  <name>Ladozhsky AVENIR</name>
+  <company>Группа компаний ПСК</company>
+  <url>https://ladoczsky.avenirspb.ru/</url>
+  <currencies><currency id="RUR" rate="1"/></currencies>
+  <categories><category id="1">Апартаменты</category></categories>
+  <offers>
+<offer id="101107" available="true">
+  <name>Апартаменты 24.22 м²</name>
+  <url>https://ladoczsky.avenirspb.ru/</url>
+  <price>7314488</price>
+  <currencyId>RUR</currencyId>
+  <categoryId>1</categoryId>
+  <description>Апарт-отель бизнес-класса Ladozhsky AVENIR, ГК «ПСК». Площадь 24.22 м², этаж 14 из 14, с отделкой. Управление: PSK INVEST.</description>
+  <param name="Площадь">24.22 м²</param>
+  <param name="Этаж">14 из 14</param>
+  <param name="Отделка">С отделкой</param>
+  <param name="Корпус">1</param>
+</offer>
+<offer id="101116" available="true">
+  <name>Апартаменты 25.68 м²</name>
+  <url>https://ladoczsky.avenirspb.ru/</url>
+  <price>7096360</price>
+  <currencyId>RUR</currencyId>
+  <categoryId>1</categoryId>
+  <description>Апарт-отель бизнес-класса Ladozhsky AVENIR, ГК «ПСК». Площадь 25.68 м², этаж 14 из 14, с отделкой. Управление: PSK INVEST.</description>
+  <param name="Площадь">25.68 м²</param>
+  <param name="Этаж">14 из 14</param>
+  <param name="Отделка">С отделкой</param>
+  <param name="Корпус">1</param>
+</offer>
+<offer id="100226" available="true">
+  <name>Апартаменты 26.67 м²</name>
+  <url>https://ladoczsky.avenirspb.ru/</url>
+  <price>6920892</price>
+  <currencyId>RUR</currencyId>
+  <categoryId>1</categoryId>
+  <description>Апарт-отель бизнес-класса Ladozhsky AVENIR, ГК «ПСК». Площадь 26.67 м², этаж 3 из 14, с отделкой. Управление: PSK INVEST.</description>
+  <param name="Площадь">26.67 м²</param>
+  <param name="Этаж">3 из 14</param>
+  <param name="Отделка">С отделкой</param>
+  <param name="Корпус">1</param>
+</offer>
+<offer id="100258" available="true">
+  <name>Апартаменты 27.16 м²</name>
+  <url>https://ladoczsky.avenirspb.ru/</url>
+  <price>7405201</price>
+  <currencyId>RUR</currencyId>
+  <categoryId>1</categoryId>
+  <description>Апарт-отель бизнес-класса Ladozhsky AVENIR, ГК «ПСК». Площадь 27.16 м², этаж 3 из 14, с отделкой. Управление: PSK INVEST.</description>
+  <param name="Площадь">27.16 м²</param>
+  <param name="Этаж">3 из 14</param>
+  <param name="Отделка">С отделкой</param>
+  <param name="Корпус">1</param>
+</offer>
+<offer id="100289" available="true">
+  <name>Апартаменты 34.97 м²</name>
+  <url>https://ladoczsky.avenirspb.ru/</url>
+  <price>8491136</price>
+  <currencyId>RUR</currencyId>
+  <categoryId>1</categoryId>
+  <description>Апарт-отель бизнес-класса Ladozhsky AVENIR, ГК «ПСК». Площадь 34.97 м², этаж 3 из 14, с отделкой. Управление: PSK INVEST.</description>
+  <param name="Площадь">34.97 м²</param>
+  <param name="Этаж">3 из 14</param>
+  <param name="Отделка">С отделкой</param>
+  <param name="Корпус">1</param>
+</offer>
+<offer id="100484" available="true">
+  <name>Апартаменты 39.35 м²</name>
+  <url>https://ladoczsky.avenirspb.ru/</url>
+  <price>8911437</price>
+  <currencyId>RUR</currencyId>
+  <categoryId>1</categoryId>
+  <description>Апарт-отель бизнес-класса Ladozhsky AVENIR, ГК «ПСК». Площадь 39.35 м², этаж 6 из 14, с отделкой. Управление: PSK INVEST.</description>
+  <param name="Площадь">39.35 м²</param>
+  <param name="Этаж">6 из 14</param>
+  <param name="Отделка">С отделкой</param>
+  <param name="Корпус">1</param>
+</offer>
+<offer id="100439" available="true">
+  <name>Апартаменты 39.9 м²</name>
+  <url>https://ladoczsky.avenirspb.ru/</url>
+  <price>9005909</price>
+  <currencyId>RUR</currencyId>
+  <categoryId>1</categoryId>
+  <description>Апарт-отель бизнес-класса Ladozhsky AVENIR, ГК «ПСК». Площадь 39.9 м², этаж 5 из 14, с отделкой. Управление: PSK INVEST.</description>
+  <param name="Площадь">39.9 м²</param>
+  <param name="Этаж">5 из 14</param>
+  <param name="Отделка">С отделкой</param>
+  <param name="Корпус">1</param>
+</offer>
+<offer id="100336" available="true">
+  <name>Апартаменты 43.33 м²</name>
+  <url>https://ladoczsky.avenirspb.ru/</url>
+  <price>9469772</price>
+  <currencyId>RUR</currencyId>
+  <categoryId>1</categoryId>
+  <description>Апарт-отель бизнес-класса Ladozhsky AVENIR, ГК «ПСК». Площадь 43.33 м², этаж 4 из 14, с отделкой. Управление: PSK INVEST.</description>
+  <param name="Площадь">43.33 м²</param>
+  <param name="Этаж">4 из 14</param>
+  <param name="Отделка">С отделкой</param>
+  <param name="Корпус">1</param>
+</offer>
+<offer id="100495" available="true">
+  <name>Апартаменты 51.26 м²</name>
+  <url>https://ladoczsky.avenirspb.ru/</url>
+  <price>11235321</price>
+  <currencyId>RUR</currencyId>
+  <categoryId>1</categoryId>
+  <description>Апарт-отель бизнес-класса Ladozhsky AVENIR, ГК «ПСК». Площадь 51.26 м², этаж 6 из 14, с отделкой. Управление: PSK INVEST.</description>
+  <param name="Площадь">51.26 м²</param>
+  <param name="Этаж">6 из 14</param>
+  <param name="Отделка">С отделкой</param>
+  <param name="Корпус">1</param>
+</offer>
+<offer id="100434" available="true">
+  <name>Апартаменты 60.83 м²</name>
+  <url>https://ladoczsky.avenirspb.ru/</url>
+  <price>13105033</price>
+  <currencyId>RUR</currencyId>
+  <categoryId>1</categoryId>
+  <description>Апарт-отель бизнес-класса Ladozhsky AVENIR, ГК «ПСК». Площадь 60.83 м², этаж 5 из 14, с отделкой. Управление: PSK INVEST.</description>
+  <param name="Площадь">60.83 м²</param>
+  <param name="Этаж">5 из 14</param>
+  <param name="Отделка">С отделкой</param>
+  <param name="Корпус">1</param>
+</offer>
+  </offers>
+</shop>
+</yml_catalog>
