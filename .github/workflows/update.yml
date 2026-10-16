@@ -105,7 +105,7 @@ jobs:
               if len(unique) <= ITEMS:
                   return unique
               step = (len(unique) - 1) / (ITEMS - 1)
-              return [unique[round(i * step)] for i in range(ITEMS)]
+              return sorted([unique[round(i * step)] for i in range(ITEMS)], key=lambda f: f["price"])
 
 
           def project_renders():
