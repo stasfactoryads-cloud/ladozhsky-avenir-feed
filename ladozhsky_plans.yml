@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Обновлено: 2026-10-16 00:25 МСК. Источник: psk-info.ru, проект Ladozhsky AVENIR -->
-<yml_catalog date="2026-10-16 00:25">
+<!-- Обновлено: 2026-10-16 10:39 МСК. Источник: psk-info.ru, проект Ladozhsky AVENIR -->
+<yml_catalog date="2026-10-16 10:39">
 <shop>
   <name>Ladozhsky AVENIR</name>
   <company>Группа компаний ПСК</company>
@@ -19,9 +19,10 @@
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/43eb0c95d976b836d27fd13646b74630a6cb8200.jpg</picture>
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/c539efb56106d785b51b4b7b14b9083f10709d65.jpg</picture>
   <price>7314488</price>
+  <oldprice>8127209</oldprice>
   <currencyId>RUR</currencyId>
   <categoryId>1</categoryId>
-  <description>Апартаменты 24.22 м² на 14 этаже из 14, корпус 1, номер 1403. С отделкой. Апарт-отель бизнес-класса Ladozhsky AVENIR от ГК «ПСК». До метро «Ладожская» 10 минут пешком. Управление номером: PSK INVEST.</description>
+  <description><![CDATA[<p>Площадь 24.22 м², этаж 14 из 14, корпус 1, номер 1403.</p><ul><li>Можно приобрести сразу с мебелью и техникой</li><li>На этот вариант действует дополнительная скидка, узнать в офисе продаж</li><li>Можно купить в рассрочку под 0%</li><li>Закажите звонок ипотечного брокера, подберем лучшую программу</li></ul>]]></description>
   <param name="Площадь">24.22 м²</param>
   <param name="Этаж">14 из 14</param>
   <param name="Отделка">С отделкой</param>
@@ -39,9 +40,10 @@
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/43eb0c95d976b836d27fd13646b74630a6cb8200.jpg</picture>
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/c539efb56106d785b51b4b7b14b9083f10709d65.jpg</picture>
   <price>7096360</price>
+  <oldprice>7884844</oldprice>
   <currencyId>RUR</currencyId>
   <categoryId>1</categoryId>
-  <description>Апартаменты 25.68 м² на 14 этаже из 14, корпус 1, номер 1412. С отделкой. Апарт-отель бизнес-класса Ladozhsky AVENIR от ГК «ПСК». До метро «Ладожская» 10 минут пешком. Управление номером: PSK INVEST.</description>
+  <description><![CDATA[<p>Площадь 25.68 м², этаж 14 из 14, корпус 1, номер 1412.</p><ul><li>Можно приобрести сразу с мебелью и техникой</li><li>На этот вариант действует дополнительная скидка, узнать в офисе продаж</li><li>Можно купить в рассрочку под 0%</li><li>Закажите звонок ипотечного брокера, подберем лучшую программу</li></ul>]]></description>
   <param name="Площадь">25.68 м²</param>
   <param name="Этаж">14 из 14</param>
   <param name="Отделка">С отделкой</param>
@@ -59,9 +61,10 @@
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/43eb0c95d976b836d27fd13646b74630a6cb8200.jpg</picture>
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/c539efb56106d785b51b4b7b14b9083f10709d65.jpg</picture>
   <price>6920892</price>
+  <oldprice>7689879</oldprice>
   <currencyId>RUR</currencyId>
   <categoryId>1</categoryId>
-  <description>Апартаменты 26.67 м² на 3 этаже из 14, корпус 1, номер 302. С отделкой. Апарт-отель бизнес-класса Ladozhsky AVENIR от ГК «ПСК». До метро «Ладожская» 10 минут пешком. Управление номером: PSK INVEST.</description>
+  <description><![CDATA[<p>Площадь 26.67 м², этаж 3 из 14, корпус 1, номер 302.</p><ul><li>Можно приобрести сразу с мебелью и техникой</li><li>На этот вариант действует дополнительная скидка, узнать в офисе продаж</li><li>Можно купить в рассрочку под 0%</li><li>Закажите звонок ипотечного брокера, подберем лучшую программу</li></ul>]]></description>
   <param name="Площадь">26.67 м²</param>
   <param name="Этаж">3 из 14</param>
   <param name="Отделка">С отделкой</param>
@@ -79,9 +82,10 @@
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/43eb0c95d976b836d27fd13646b74630a6cb8200.jpg</picture>
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/c539efb56106d785b51b4b7b14b9083f10709d65.jpg</picture>
   <price>7405201</price>
+  <oldprice>8228001</oldprice>
   <currencyId>RUR</currencyId>
   <categoryId>1</categoryId>
-  <description>Апартаменты 27.16 м² на 3 этаже из 14, корпус 1, номер 342. С отделкой. Апарт-отель бизнес-класса Ladozhsky AVENIR от ГК «ПСК». До метро «Ладожская» 10 минут пешком. Управление номером: PSK INVEST.</description>
+  <description><![CDATA[<p>Площадь 27.16 м², этаж 3 из 14, корпус 1, номер 342.</p><ul><li>Можно приобрести сразу с мебелью и техникой</li><li>На этот вариант действует дополнительная скидка, узнать в офисе продаж</li><li>Можно купить в рассрочку под 0%</li><li>Закажите звонок ипотечного брокера, подберем лучшую программу</li></ul>]]></description>
   <param name="Площадь">27.16 м²</param>
   <param name="Этаж">3 из 14</param>
   <param name="Отделка">С отделкой</param>
@@ -99,9 +103,10 @@
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/43eb0c95d976b836d27fd13646b74630a6cb8200.jpg</picture>
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/c539efb56106d785b51b4b7b14b9083f10709d65.jpg</picture>
   <price>8491136</price>
+  <oldprice>9434595</oldprice>
   <currencyId>RUR</currencyId>
   <categoryId>1</categoryId>
-  <description>Апартаменты 34.97 м² на 3 этаже из 14, корпус 1, номер 381. С отделкой. Апарт-отель бизнес-класса Ladozhsky AVENIR от ГК «ПСК». До метро «Ладожская» 10 минут пешком. Управление номером: PSK INVEST.</description>
+  <description><![CDATA[<p>Площадь 34.97 м², этаж 3 из 14, корпус 1, номер 381.</p><ul><li>Можно приобрести сразу с мебелью и техникой</li><li>На этот вариант действует дополнительная скидка, узнать в офисе продаж</li><li>Можно купить в рассрочку под 0%</li><li>Закажите звонок ипотечного брокера, подберем лучшую программу</li></ul>]]></description>
   <param name="Площадь">34.97 м²</param>
   <param name="Этаж">3 из 14</param>
   <param name="Отделка">С отделкой</param>
@@ -119,9 +124,10 @@
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/43eb0c95d976b836d27fd13646b74630a6cb8200.jpg</picture>
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/c539efb56106d785b51b4b7b14b9083f10709d65.jpg</picture>
   <price>8911437</price>
+  <oldprice>9901596</oldprice>
   <currencyId>RUR</currencyId>
   <categoryId>1</categoryId>
-  <description>Апартаменты 39.35 м² на 6 этаже из 14, корпус 1, номер 625. С отделкой. Апарт-отель бизнес-класса Ladozhsky AVENIR от ГК «ПСК». До метро «Ладожская» 10 минут пешком. Управление номером: PSK INVEST.</description>
+  <description><![CDATA[<p>Площадь 39.35 м², этаж 6 из 14, корпус 1, номер 625.</p><ul><li>Можно приобрести сразу с мебелью и техникой</li><li>На этот вариант действует дополнительная скидка, узнать в офисе продаж</li><li>Можно купить в рассрочку под 0%</li><li>Закажите звонок ипотечного брокера, подберем лучшую программу</li></ul>]]></description>
   <param name="Площадь">39.35 м²</param>
   <param name="Этаж">6 из 14</param>
   <param name="Отделка">С отделкой</param>
@@ -139,9 +145,10 @@
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/43eb0c95d976b836d27fd13646b74630a6cb8200.jpg</picture>
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/c539efb56106d785b51b4b7b14b9083f10709d65.jpg</picture>
   <price>9005909</price>
+  <oldprice>10006565</oldprice>
   <currencyId>RUR</currencyId>
   <categoryId>1</categoryId>
-  <description>Апартаменты 39.9 м² на 5 этаже из 14, корпус 1, номер 563. С отделкой. Особенности: гардеробная. Апарт-отель бизнес-класса Ladozhsky AVENIR от ГК «ПСК». До метро «Ладожская» 10 минут пешком. Управление номером: PSK INVEST.</description>
+  <description><![CDATA[<p>Площадь 39.9 м², этаж 5 из 14, корпус 1, номер 563. Особенности: гардеробная.</p><ul><li>Можно приобрести сразу с мебелью и техникой</li><li>На этот вариант действует дополнительная скидка, узнать в офисе продаж</li><li>Можно купить в рассрочку под 0%</li><li>Закажите звонок ипотечного брокера, подберем лучшую программу</li></ul>]]></description>
   <param name="Площадь">39.9 м²</param>
   <param name="Этаж">5 из 14</param>
   <param name="Отделка">С отделкой</param>
@@ -159,9 +166,10 @@
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/43eb0c95d976b836d27fd13646b74630a6cb8200.jpg</picture>
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/c539efb56106d785b51b4b7b14b9083f10709d65.jpg</picture>
   <price>9469772</price>
+  <oldprice>10521968</oldprice>
   <currencyId>RUR</currencyId>
   <categoryId>1</categoryId>
-  <description>Апартаменты 43.33 м² на 4 этаже из 14, корпус 1, номер 440. С отделкой. Особенности: гардеробная. Апарт-отель бизнес-класса Ladozhsky AVENIR от ГК «ПСК». До метро «Ладожская» 10 минут пешком. Управление номером: PSK INVEST.</description>
+  <description><![CDATA[<p>Площадь 43.33 м², этаж 4 из 14, корпус 1, номер 440. Особенности: гардеробная.</p><ul><li>Можно приобрести сразу с мебелью и техникой</li><li>На этот вариант действует дополнительная скидка, узнать в офисе продаж</li><li>Можно купить в рассрочку под 0%</li><li>Закажите звонок ипотечного брокера, подберем лучшую программу</li></ul>]]></description>
   <param name="Площадь">43.33 м²</param>
   <param name="Этаж">4 из 14</param>
   <param name="Отделка">С отделкой</param>
@@ -179,9 +187,10 @@
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/43eb0c95d976b836d27fd13646b74630a6cb8200.jpg</picture>
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/c539efb56106d785b51b4b7b14b9083f10709d65.jpg</picture>
   <price>11235321</price>
+  <oldprice>12483689</oldprice>
   <currencyId>RUR</currencyId>
   <categoryId>1</categoryId>
-  <description>Апартаменты 51.26 м² на 6 этаже из 14, корпус 1, номер 639. С отделкой. Апарт-отель бизнес-класса Ladozhsky AVENIR от ГК «ПСК». До метро «Ладожская» 10 минут пешком. Управление номером: PSK INVEST.</description>
+  <description><![CDATA[<p>Площадь 51.26 м², этаж 6 из 14, корпус 1, номер 639.</p><ul><li>Можно приобрести сразу с мебелью и техникой</li><li>На этот вариант действует дополнительная скидка, узнать в офисе продаж</li><li>Можно купить в рассрочку под 0%</li><li>Закажите звонок ипотечного брокера, подберем лучшую программу</li></ul>]]></description>
   <param name="Площадь">51.26 м²</param>
   <param name="Этаж">6 из 14</param>
   <param name="Отделка">С отделкой</param>
@@ -199,9 +208,10 @@
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/43eb0c95d976b836d27fd13646b74630a6cb8200.jpg</picture>
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/c539efb56106d785b51b4b7b14b9083f10709d65.jpg</picture>
   <price>13105033</price>
+  <oldprice>14561147</oldprice>
   <currencyId>RUR</currencyId>
   <categoryId>1</categoryId>
-  <description>Апартаменты 60.83 м² на 5 этаже из 14, корпус 1, номер 558. С отделкой. Особенности: гардеробная. Апарт-отель бизнес-класса Ladozhsky AVENIR от ГК «ПСК». До метро «Ладожская» 10 минут пешком. Управление номером: PSK INVEST.</description>
+  <description><![CDATA[<p>Площадь 60.83 м², этаж 5 из 14, корпус 1, номер 558. Особенности: гардеробная.</p><ul><li>Можно приобрести сразу с мебелью и техникой</li><li>На этот вариант действует дополнительная скидка, узнать в офисе продаж</li><li>Можно купить в рассрочку под 0%</li><li>Закажите звонок ипотечного брокера, подберем лучшую программу</li></ul>]]></description>
   <param name="Площадь">60.83 м²</param>
   <param name="Этаж">5 из 14</param>
   <param name="Отделка">С отделкой</param>

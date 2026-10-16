@@ -158,44 +158,44 @@ jobs:
 
 
           def lot_description(flat):
-              """Описание конкретного лота: все поля уникальны из-за номера, этажа и площади."""
+              """Описание лота: уникальная строка с площадью, этажом и номером плюс короткие бенефиты."""
               area = f"{flat['area']:.2f}".rstrip("0").rstrip(".")
-              finishing = flat.get("finishing") or "С отделкой"
               features = flat.get("features") or []
-              parts = [
-                  f"Апартаменты {area} м² на {flat.get('floor')} этаже из {flat.get('max_floor')}, "
-                  f"корпус {flat.get('building') or '1'}, номер {flat.get('number')}.",
-                  f"{finishing}.",
-              ]
+              head = (f"Площадь {area} м², этаж {flat.get('floor')} из {flat.get('max_floor')}, "
+                      f"корпус {flat.get('building') or '1'}, номер {flat.get('number')}.")
               if features:
-                  parts.append("Особенности: " + ", ".join(f.lower() for f in features) + ".")
-              parts.append(
-                  "Апарт-отель бизнес-класса Ladozhsky AVENIR от ГК «ПСК». "
-                  "До метро «Ладожская» 10 минут пешком. Управление номером: PSK INVEST."
-              )
-              return " ".join(parts)
+                  head += " Особенности: " + ", ".join(f.lower() for f in features) + "."
+              bullets = [
+                  "Можно приобрести сразу с мебелью и техникой",
+                  "На этот вариант действует дополнительная скидка, узнать в офисе продаж",
+                  "Можно купить в рассрочку под 0%",
+                  "Закажите звонок ипотечного брокера, подберем лучшую программу",
+              ]
+              items = "".join(f"<li>{b}</li>" for b in bullets)
+              return f"<p>{head}</p><ul>{items}</ul>"
 
 
           def offer_xml(flat, pictures):
               area = f"{flat['area']:.2f}".rstrip("0").rstrip(".")
               finishing = flat.get("finishing") or "С отделкой"
               pictures_xml = "\n".join(f"  <picture>{escape(p)}</picture>" for p in pictures)
-              return "\n".join([
+              return "\n".join(line for line in [
                   f'<offer id="{flat["id"]}" available="true">',
                   f"  <name>{escape(f'Апартаменты {area} м²')}</name>",
                   f"  <url>{escape(SHOP_URL)}</url>",
                   pictures_xml,
                   f"  <price>{int(round(flat['price']))}</price>",
+                  (f"  <oldprice>{int(round(float(flat['original_price'])))}</oldprice>" if flat.get('original_price') else ""),
                   "  <currencyId>RUR</currencyId>",
                   "  <categoryId>1</categoryId>",
-                  f"  <description>{escape(lot_description(flat))}</description>",
+                  f"  <description><![CDATA[{lot_description(flat)}]]></description>",
                   f'  <param name="Площадь">{area} м²</param>',
                   f'  <param name="Этаж">{flat.get("floor")} из {flat.get("max_floor")}</param>',
                   f'  <param name="Отделка">{escape(finishing)}</param>',
                   f'  <param name="Корпус">{escape(str(flat.get("building") or "-"))}</param>',
                   f'  <param name="Номер">{escape(str(flat.get("number") or "-"))}</param>',
                   "</offer>",
-              ])
+              ] if line)
 
 
           def build_yml(offers, now):
