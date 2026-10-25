@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Обновлено: 2026-10-25 00:17 МСК. Источник: psk-info.ru, проект Ladozhsky AVENIR -->
-<yml_catalog date="2026-10-25 00:17">
+<!-- Обновлено: 2026-10-26 00:17 МСК. Источник: psk-info.ru, проект Ladozhsky AVENIR -->
+<yml_catalog date="2026-10-26 00:17">
 <shop>
   <name>Ladozhsky AVENIR</name>
   <company>Группа компаний ПСК</company>
@@ -8,26 +8,26 @@
   <currencies><currency id="RUR" rate="1"/></currencies>
   <categories><category id="1">Апартаменты</category></categories>
   <offers>
-<offer id="100226" available="true">
-  <name>Апартаменты 26.67 м²</name>
+<offer id="100967" available="true">
+  <name>Апартаменты 25.78 м²</name>
   <url>https://ladoczsky.avenirspb.ru/</url>
-  <picture>https://raw.githubusercontent.com/stasfactoryads-cloud/ladozhsky-avenir-feed/main/plans/100226.png</picture>
-  <picture>https://raw.githubusercontent.com/stasfactoryads-cloud/ladozhsky-avenir-feed/main/plans/100226-floor.png</picture>
+  <picture>https://raw.githubusercontent.com/stasfactoryads-cloud/ladozhsky-avenir-feed/main/plans/100967.png</picture>
+  <picture>https://raw.githubusercontent.com/stasfactoryads-cloud/ladozhsky-avenir-feed/main/plans/100967-floor.png</picture>
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/a3e31d2e668fab6d7f37188add04f192b206789d.jpg</picture>
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/ba7a4cd5591f6ca7c60ec052c391f04c9d37e095.jpg</picture>
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/d7e9194ec4b75747c4e29b857477a0d0616efdf4.jpg</picture>
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/43eb0c95d976b836d27fd13646b74630a6cb8200.jpg</picture>
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/c539efb56106d785b51b4b7b14b9083f10709d65.jpg</picture>
-  <price>6920892</price>
-  <oldprice>7689879</oldprice>
+  <price>6925952</price>
+  <oldprice>7695501</oldprice>
   <currencyId>RUR</currencyId>
   <categoryId>1</categoryId>
-  <description><![CDATA[<p>Площадь 26.67 м², этаж 3 из 14, корпус 1, номер 302.</p><ul><li>Можно приобрести сразу с мебелью и техникой</li><li>На этот вариант действует дополнительная скидка, узнать в офисе продаж</li><li>Можно купить в рассрочку под 0%</li><li>Закажите звонок ипотечного брокера, подберем лучшую программу</li></ul>]]></description>
-  <param name="Площадь">26.67 м²</param>
-  <param name="Этаж">3 из 14</param>
+  <description><![CDATA[<p>Площадь 25.78 м², этаж 12 из 14, корпус 1, номер 1230.</p><ul><li>Можно приобрести сразу с мебелью и техникой</li><li>На этот вариант действует дополнительная скидка, узнать в офисе продаж</li><li>Можно купить в рассрочку под 0%</li><li>Закажите звонок ипотечного брокера, подберем лучшую программу</li></ul>]]></description>
+  <param name="Площадь">25.78 м²</param>
+  <param name="Этаж">12 из 14</param>
   <param name="Отделка">С отделкой</param>
   <param name="Корпус">1</param>
-  <param name="Номер">302</param>
+  <param name="Номер">1230</param>
 </offer>
 <offer id="101116" available="true">
   <name>Апартаменты 25.68 м²</name>
@@ -92,26 +92,26 @@
   <param name="Корпус">1</param>
   <param name="Номер">342</param>
 </offer>
-<offer id="100289" available="true">
-  <name>Апартаменты 34.97 м²</name>
+<offer id="100409" available="true">
+  <name>Апартаменты 39.23 м²</name>
   <url>https://ladoczsky.avenirspb.ru/</url>
-  <picture>https://raw.githubusercontent.com/stasfactoryads-cloud/ladozhsky-avenir-feed/main/plans/100289.png</picture>
-  <picture>https://raw.githubusercontent.com/stasfactoryads-cloud/ladozhsky-avenir-feed/main/plans/100289-floor.png</picture>
+  <picture>https://raw.githubusercontent.com/stasfactoryads-cloud/ladozhsky-avenir-feed/main/plans/100409.png</picture>
+  <picture>https://raw.githubusercontent.com/stasfactoryads-cloud/ladozhsky-avenir-feed/main/plans/100409-floor.png</picture>
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/a3e31d2e668fab6d7f37188add04f192b206789d.jpg</picture>
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/ba7a4cd5591f6ca7c60ec052c391f04c9d37e095.jpg</picture>
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/d7e9194ec4b75747c4e29b857477a0d0616efdf4.jpg</picture>
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/43eb0c95d976b836d27fd13646b74630a6cb8200.jpg</picture>
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/c539efb56106d785b51b4b7b14b9083f10709d65.jpg</picture>
-  <price>8491136</price>
-  <oldprice>9434595</oldprice>
+  <price>8854682</price>
+  <oldprice>9838535</oldprice>
   <currencyId>RUR</currencyId>
   <categoryId>1</categoryId>
-  <description><![CDATA[<p>Площадь 34.97 м², этаж 3 из 14, корпус 1, номер 381.</p><ul><li>Можно приобрести сразу с мебелью и техникой</li><li>На этот вариант действует дополнительная скидка, узнать в офисе продаж</li><li>Можно купить в рассрочку под 0%</li><li>Закажите звонок ипотечного брокера, подберем лучшую программу</li></ul>]]></description>
-  <param name="Площадь">34.97 м²</param>
-  <param name="Этаж">3 из 14</param>
+  <description><![CDATA[<p>Площадь 39.23 м², этаж 5 из 14, корпус 1, номер 533. Особенности: гардеробная.</p><ul><li>Можно приобрести сразу с мебелью и техникой</li><li>На этот вариант действует дополнительная скидка, узнать в офисе продаж</li><li>Можно купить в рассрочку под 0%</li><li>Закажите звонок ипотечного брокера, подберем лучшую программу</li></ul>]]></description>
+  <param name="Площадь">39.23 м²</param>
+  <param name="Этаж">5 из 14</param>
   <param name="Отделка">С отделкой</param>
   <param name="Корпус">1</param>
-  <param name="Номер">381</param>
+  <param name="Номер">533</param>
 </offer>
 <offer id="100484" available="true">
   <name>Апартаменты 39.35 м²</name>
@@ -155,26 +155,26 @@
   <param name="Корпус">1</param>
   <param name="Номер">563</param>
 </offer>
-<offer id="100336" available="true">
-  <name>Апартаменты 43.33 м²</name>
+<offer id="100513" available="true">
+  <name>Апартаменты 50.87 м²</name>
   <url>https://ladoczsky.avenirspb.ru/</url>
-  <picture>https://raw.githubusercontent.com/stasfactoryads-cloud/ladozhsky-avenir-feed/main/plans/100336.png</picture>
-  <picture>https://raw.githubusercontent.com/stasfactoryads-cloud/ladozhsky-avenir-feed/main/plans/100336-floor.png</picture>
+  <picture>https://raw.githubusercontent.com/stasfactoryads-cloud/ladozhsky-avenir-feed/main/plans/100513.png</picture>
+  <picture>https://raw.githubusercontent.com/stasfactoryads-cloud/ladozhsky-avenir-feed/main/plans/100513-floor.png</picture>
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/a3e31d2e668fab6d7f37188add04f192b206789d.jpg</picture>
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/ba7a4cd5591f6ca7c60ec052c391f04c9d37e095.jpg</picture>
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/d7e9194ec4b75747c4e29b857477a0d0616efdf4.jpg</picture>
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/43eb0c95d976b836d27fd13646b74630a6cb8200.jpg</picture>
   <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/c539efb56106d785b51b4b7b14b9083f10709d65.jpg</picture>
-  <price>9469772</price>
-  <oldprice>10521968</oldprice>
+  <price>11227721</price>
+  <oldprice>12475245</oldprice>
   <currencyId>RUR</currencyId>
   <categoryId>1</categoryId>
-  <description><![CDATA[<p>Площадь 43.33 м², этаж 4 из 14, корпус 1, номер 440. Особенности: гардеробная.</p><ul><li>Можно приобрести сразу с мебелью и техникой</li><li>На этот вариант действует дополнительная скидка, узнать в офисе продаж</li><li>Можно купить в рассрочку под 0%</li><li>Закажите звонок ипотечного брокера, подберем лучшую программу</li></ul>]]></description>
-  <param name="Площадь">43.33 м²</param>
-  <param name="Этаж">4 из 14</param>
+  <description><![CDATA[<p>Площадь 50.87 м², этаж 6 из 14, корпус 1, номер 657. Особенности: гардеробная.</p><ul><li>Можно приобрести сразу с мебелью и техникой</li><li>На этот вариант действует дополнительная скидка, узнать в офисе продаж</li><li>Можно купить в рассрочку под 0%</li><li>Закажите звонок ипотечного брокера, подберем лучшую программу</li></ul>]]></description>
+  <param name="Площадь">50.87 м²</param>
+  <param name="Этаж">6 из 14</param>
   <param name="Отделка">С отделкой</param>
   <param name="Корпус">1</param>
-  <param name="Номер">440</param>
+  <param name="Номер">657</param>
 </offer>
 <offer id="100495" available="true">
   <name>Апартаменты 51.26 м²</name>
