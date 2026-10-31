@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Обновлено: 2026-10-30 03:34 МСК. Источник: psk-info.ru, проект Ladozhsky AVENIR -->
-<yml_catalog date="2026-10-30 03:34">
+<!-- Обновлено: 2026-10-31 03:20 МСК. Источник: psk-info.ru, проект Ladozhsky AVENIR -->
+<yml_catalog date="2026-10-31 03:20">
 <shop>
   <name>Ladozhsky AVENIR</name>
   <company>Группа компаний ПСК</company>
@@ -50,27 +50,6 @@
   <param name="Корпус">1</param>
   <param name="Номер">352</param>
 </offer>
-<offer id="100643" available="true">
-  <name>Апартаменты 31.15 м²</name>
-  <url>https://ladoczsky.avenirspb.ru/</url>
-  <picture>https://raw.githubusercontent.com/stasfactoryads-cloud/ladozhsky-avenir-feed/main/plans/100643.png</picture>
-  <picture>https://raw.githubusercontent.com/stasfactoryads-cloud/ladozhsky-avenir-feed/main/plans/100643-floor.png</picture>
-  <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/a3e31d2e668fab6d7f37188add04f192b206789d.jpg</picture>
-  <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/ba7a4cd5591f6ca7c60ec052c391f04c9d37e095.jpg</picture>
-  <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/d7e9194ec4b75747c4e29b857477a0d0616efdf4.jpg</picture>
-  <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/43eb0c95d976b836d27fd13646b74630a6cb8200.jpg</picture>
-  <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/c539efb56106d785b51b4b7b14b9083f10709d65.jpg</picture>
-  <price>7420584</price>
-  <oldprice>8245093</oldprice>
-  <currencyId>RUR</currencyId>
-  <categoryId>1</categoryId>
-  <description><![CDATA[<p>Площадь 31.15 м², этаж 8 из 14, корпус 1, номер 824.</p><ul><li>Можно приобрести сразу с мебелью и техникой</li><li>На этот вариант действует дополнительная скидка, узнать в офисе продаж</li><li>Можно купить в рассрочку под 0%</li><li>Закажите звонок ипотечного брокера, подберем лучшую программу</li></ul>]]></description>
-  <param name="Площадь">31.15 м²</param>
-  <param name="Этаж">8 из 14</param>
-  <param name="Отделка">С отделкой</param>
-  <param name="Корпус">1</param>
-  <param name="Номер">824</param>
-</offer>
 <offer id="100289" available="true">
   <name>Апартаменты 34.97 м²</name>
   <url>https://ladoczsky.avenirspb.ru/</url>
@@ -112,6 +91,27 @@
   <param name="Отделка">С отделкой</param>
   <param name="Корпус">1</param>
   <param name="Номер">533</param>
+</offer>
+<offer id="100484" available="true">
+  <name>Апартаменты 39.35 м²</name>
+  <url>https://ladoczsky.avenirspb.ru/</url>
+  <picture>https://raw.githubusercontent.com/stasfactoryads-cloud/ladozhsky-avenir-feed/main/plans/100484.png</picture>
+  <picture>https://raw.githubusercontent.com/stasfactoryads-cloud/ladozhsky-avenir-feed/main/plans/100484-floor.png</picture>
+  <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/a3e31d2e668fab6d7f37188add04f192b206789d.jpg</picture>
+  <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/ba7a4cd5591f6ca7c60ec052c391f04c9d37e095.jpg</picture>
+  <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/d7e9194ec4b75747c4e29b857477a0d0616efdf4.jpg</picture>
+  <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/43eb0c95d976b836d27fd13646b74630a6cb8200.jpg</picture>
+  <picture>https://storage.yandexcloud.net/psk-media/media/p/si/i/c539efb56106d785b51b4b7b14b9083f10709d65.jpg</picture>
+  <price>8911437</price>
+  <oldprice>9901596</oldprice>
+  <currencyId>RUR</currencyId>
+  <categoryId>1</categoryId>
+  <description><![CDATA[<p>Площадь 39.35 м², этаж 6 из 14, корпус 1, номер 625.</p><ul><li>Можно приобрести сразу с мебелью и техникой</li><li>На этот вариант действует дополнительная скидка, узнать в офисе продаж</li><li>Можно купить в рассрочку под 0%</li><li>Закажите звонок ипотечного брокера, подберем лучшую программу</li></ul>]]></description>
+  <param name="Площадь">39.35 м²</param>
+  <param name="Этаж">6 из 14</param>
+  <param name="Отделка">С отделкой</param>
+  <param name="Корпус">1</param>
+  <param name="Номер">625</param>
 </offer>
 <offer id="100439" available="true">
   <name>Апартаменты 39.9 м²</name>
